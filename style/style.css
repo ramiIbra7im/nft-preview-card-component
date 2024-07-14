@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+
+}
+
+body {
+    background-color: #071a2d;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ntf {
+    width: 300px;
+    height: 500px;
+    background-color: #0e273e;
+
+    border-radius: 20px;
+}
+
+.continer .photo {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 15px;
+    align-self: center;
+    margin-left: 5%;
+}
+
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+.contact .title h1 {
+    color: white;
+    font-size: 19px;
+
+}
+
+.contact .title p {
+    margin-top: 20px;
+
+    color: #7491b1;
+}
+
+.days {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.days .clom {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.clom .name {
+    color: #00f2ea;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.clom .time {
+    color: #7491b1;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.user-name {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 95%;
+    position: relative;
+
+}
+
+
+
+.user-name::before {
+    content: "";
+    height: 1px;
+    background-color: #7491b1;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+}
+
+.user-name .avater {
+    width: 30px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.user-name .named {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.user-name .named h3:nth-child(1) {
+    color: #557390;
+}
+
+.user-name .named h3:nth-child(2) {
+    color: white;
+    padding-left: 10px;
+}
